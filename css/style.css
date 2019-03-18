@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|MyriadPro:500,600');
+body{
+	color: #475965;
+	font-family: arial, tahoma, sans-serif, serif;
+	background: #e9e6e6;
+	line-height: 1.3;
+	font-size: 16px;
+	min-width: 900px;
+	margin: 0;
+}
+.main-box{
+	border-bottom: 1px solid #475965;
+}
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
+.box{
+	width: 267px;
+	height: 271px;
+	margin: 20px auto 20px auto;
+	font-weight: bold;
+	background: #ffffff;
+	border-radius: 3px;
+	text-align: center;
+}
+.box p{
+	display: block;
+	padding: 21px 3px 0 0;
+}
+.username{
+	display: inline-block;
+	height: 20px;
+	margin-top: 10px;
+	padding: 6px 3px 6px 55px;
+	background-image: url(../images/ic-user.png), 
+	                  url(../images/ic-separator.png);
+	background-position: 11px 7px, 42px 32px;
+	background-repeat: no-repeat, repeat-y;
+	font-size: 13px;
+	border: 1px solid #ced6dc;
+	color: #ced6dc;
+}
+.password{
+	display: inline-block;
+	height: 21px;
+	margin-top: 18px;
+	padding: 6px 3px 6px 55px;
+	background-image: url(../images/ic-lock.png), 
+	                  url(../images/ic-lockseparator.png);
+	background-position: 14px 9px, 42px 32px;
+	background-repeat: no-repeat, repeat-y;
+	font-size: 13px;
+	border: 1px solid #959fa9;
+	color: #727f8c;
+}
+.loginbox{
+	margin-top: 21px;
+}
+button{
+	width: 228px;
+ height: 40px;
+ margin-top: 23px;
+ font-size: 15px;
+ font-weight: bold;
+ background: #21b8c6;
+ border: none;
+ border-radius: 2px;
+ color: #ffffff;
+}
+span{
+	display: inline-block;
+	font-size: 13px;
+	font-weight: normal;
+	margin-top: 15px;
+	
+}
+a{
+	text-decoration: none;
+	color: #7d8e9a;
+}
+.loginbox span:last-child{
+color: #475965;
+display: inline-block;
+}
+.loginbox span:last-child::after{
+	content: "";
+	width: 24px;
+	height: 10px;
+	display: inline-block;
+	background: url(../images/ic-arrow.png) 12px 1px no-repeat;
+}
+.enter-box{
+	width: 365px;
+	height: 307px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 25px 0 0 24px;
+	font-family: 'MyriadPro':500,600;
+}
+.enter-box2{
+	display: inline-block;
+	width: 333px;
+	height: 275px;
+	border: 3px #ffbe32;
+	border-style: dotted;
+	border-radius: 5px;
+}
+.enter-box2>p{
+	font-size: 20px;
+	color: #474747;
+	margin: 14px 0 13px 20px;
+}
+.flex-box label{
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 13px 0 20px;
+	text-shadow: 1px 0px 1px rgba(80, 80, 80, 0.75);
+	color: #505050;
+}
+.tbox{
+	display: inline-block;
+	background: #fff7e0;
+	border: 1px solid #ffe591;
+	box-shadow: inset 1px 1px 0px 0px rgba(243, 207, 173, 1);
+	padding-left: 5px;
+}
+.td1{
+	height: 23px;
+	width: 57px;
+}
+.td2{
+	height: 23px;
+	width: 37px;
+}
+.td3{
+	height: 23px;
+	width: 26px;
+}
+i::after{
+	content: "";
+	padding-left: 10px;
+	width: 8px;
+	height: 6px;
+	text-align: center;
+	display: inline-block;
+	background: url(../images/ic-dash.png) 6px 0 no-repeat;
+}
+.td4{
+	height: 23px;
+	width: 184px;
+	margin: 10px 0 0 41px;
+}
+.flex-box button{
+	width: 79px;
+	height: 33px;
+	background: linear-gradient(to bottom, rgb(255,203,128) 0%,rgb(255,95,2) 100%);
+	border-radius: 10px;
+	box-shadow: 0px 2px 2px 0px rgba(204, 203, 199, 1);
+	text-shadow: -1px -1px 1px rgba(226, 137, 67, 0.75);
+	margin: 9px 0 0 131px;
+}
+.flex-box a{
+	text-decoration: underline;
+	color: #1e1c1d;
+	text-shadow: 0px 1px 4px rgba(178, 176, 177, 0.75);
+	font-size: 11px;
+	padding-left: 9px;
+}
+.notification{
+	width: 333px;
+	height: 104px;
+	background: #f4f4f4;
+	color: #454545;
+	text-shadow: -1px 0px 1px rgba(187, 187, 187, 0.75);
+}
+.notification>span{
+	font-weight: 400;
+	font-size: 12px;
+	margin-left: 20px;
+}
+.notification>p{
+	font-weight: 600;
+	font-size: 12px;
+}
+.notification{
+	margin-top: 12px;
+}
+.main-topup{
+	width: 363px;
+	height: 390px;
+	background: #fff;
+	margin: 20px auto;
+	padding: 10px 0 0 0px;
+}
+.header-topup{
+	width: 306px;
+	height: 338px;
+	color: #1f1f1f;
+	font-family: Roboto+Slab:700,
+	font-size: 18px;
+	font-weight: 700;
+	text-shadow: -1px 1px 1px rgba(214, 214, 214, 1);
+	
+	margin:  25px 0 0 29px;
+	border: 1px solid #dfdfdf;
+	border-radius: 7px;
+}
+.header-topup p{
+	display: block;
+	margin: 23px 0 0 63px;
+	position: relative;
+}
+.td-topup{
+	margin: 1px 0 0 26px;
+}
+.header-topup>s::before{
+	display: block;
+	content: "";
+	width: 23px;
+	height: 22px;
+	background: url(../images/ic-wallet.png) 0 0 no-repeat;
+	position: absolute;
+	margin: 21px 0 0 26px;
+}
+.td-topup-box{
+	width: 240px;
+	height: 31px;
+	border: 1px solid #aeaeae;
+	box-shadow: inset 1px 1px 1px 0px rgba(50, 50, 50, 1);
+ margin-top: 15px;
+ padding-left: 10px;
+ border-radius: 3px;
+}
+.sel{
+	padding-left: 10px;
+	width: 252px;
+	height: 36px;
+	background-image: url(../images/ic-arrowdown.png);
+	background-position: 222px 6px;
+	background-repeat: no-repeat;
+	-webkit-appearance: none; 
+	-moz-appearance: none;
+	text-overflow: '';  
+	-ms-appearance: none;
+	appearance: none!important;
+}
+.text{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 17px;
+	font-weight: normal;
+}
+.td-topup .button{
+	background: url(../images/button-opl.png);
+	margin: 24px 0 0 19px;
+	width: 214px;
+	height: 38px;
+	font-family: 'MyriadPro:600', serif;
+	box-shadow:         0px 1px 2px 0px rgba(236, 236, 236, 1);
+	border-radius: 3px;
+}
